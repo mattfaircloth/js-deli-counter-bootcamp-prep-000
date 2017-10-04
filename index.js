@@ -15,5 +15,5 @@ function currentLine(line) {
         lineArray.push(`${i + 1}. ${line[i]}`)
       }
     }
-    return "The line is currently: " + lineArray.join(, );
+    return "The line is currently: " + lineArray.join(', ');
 }
